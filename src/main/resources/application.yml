@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: alator-creator
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: root
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+file:
+  root: 'C:\Users\Ab.ergashev\IdeaProjects\alator-creator\src\main\resources\projects'
+
+jar:
+  file:
+    path: 'C:\Users\Ab.ergashev\IdeaProjects\custom-gateway\build\libs\custom-gateway-0.0.1-SNAPSHOT.jar'

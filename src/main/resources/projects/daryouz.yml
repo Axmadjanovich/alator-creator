@@ -1,0 +1,11 @@
+---
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: "host-route"
+        uri: http://daryo.uz
+        predicates:
+        - Path=/daryo
+  application:
+    name: "daryouz"

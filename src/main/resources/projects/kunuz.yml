@@ -1,0 +1,12 @@
+---
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: common
+          uri: http://kun.uz
+          predicates:
+            - Path=/kunuz
+
+  application:
+    name: "kunuz"
